@@ -14,11 +14,20 @@ const GlobalStyles = createGlobalStyle`
 
     body {
       font-family: ${theme.font.family};
-      font-size: ${theme.font.sizes.medium};
+      font-size: ${theme.font.sizes.large};
     }
 
     button {
       cursor: pointer;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    a {
+      text-decoration: none;
+      color: ${theme.colors.grayLight};
     }
   `}
 `
