@@ -1,7 +1,9 @@
 import React from 'react'
 
+import { Container } from './components/Container'
+
 function App() {
-  return <h1>Hello world</h1>
+  return <Container>Hello</Container>
 }
 
 export default App
