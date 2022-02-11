@@ -7,10 +7,9 @@ export const Wrapper = styled.div`
   `}
 `
 
-export const Content = styled.section`
+export const Content = styled.div`
   ${({ theme }) => css`
     max-width: ${theme.grid.container};
-    background: #ccc;
     margin: 0 auto;
   `}
 `
