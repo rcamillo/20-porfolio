@@ -2,6 +2,7 @@ import React from 'react'
 
 import { Container } from './components/Container'
 import { Header } from './components/Header'
+import { Presentation } from './components/Presentation'
 
 function App() {
   return (
@@ -9,7 +10,10 @@ function App() {
       <Container>
         <Header />
       </Container>
-      <Container>hello</Container>
+
+      <Container>
+        <Presentation />
+      </Container>
     </>
   )
 }
