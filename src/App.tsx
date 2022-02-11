@@ -1,9 +1,17 @@
 import React from 'react'
 
 import { Container } from './components/Container'
+import { Header } from './components/Header'
 
 function App() {
-  return <Container>Hello</Container>
+  return (
+    <>
+      <Container>
+        <Header />
+      </Container>
+      <Container>hello</Container>
+    </>
+  )
 }
 
 export default App
