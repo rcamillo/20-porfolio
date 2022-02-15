@@ -1,4 +1,5 @@
 import React from 'react'
+import { About } from './components/About'
 
 import { Container } from './components/Container'
 import { Header } from './components/Header'
@@ -15,7 +16,9 @@ function App() {
         <Presentation />
       </Container>
 
-      <Container>uahsuahs</Container>
+      <Container variant="light">
+        <About />
+      </Container>
     </>
   )
 }
