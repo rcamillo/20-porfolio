@@ -9,6 +9,8 @@ export const Wrapper = styled.main`
     > div {
       text-transform: uppercase;
       font-weight: 600;
+      z-index: 1;
+      cursor: default;
 
       h1 {
         font-size: ${theme.font.sizes.huge};
@@ -20,6 +22,18 @@ export const Wrapper = styled.main`
       h2 {
         font-size: ${theme.font.sizes.xlarge};
         color: ${theme.colors.light};
+      }
+    }
+
+    div.wrapper-looper {
+      width: 100%;
+      position: absolute;
+      right: 0;
+      overflow: hidden;
+      z-index: 0;
+
+      > svg {
+        height: calc(100vh - 11rem);
       }
     }
   `}
