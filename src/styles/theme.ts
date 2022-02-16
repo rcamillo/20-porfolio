@@ -11,7 +11,9 @@ export default {
   },
   gradients: {
     pink: 'linear-gradient(270.06deg, #6518B4 0%, #D24074 101.62%)',
-    purple: 'linear-gradient(269.96deg, #10D7E2 0%, #9358F7 100%)'
+    purple: 'linear-gradient(269.96deg, #10D7E2 0%, #9358F7 100%)',
+    dark: 'linear-gradient(#121212, #121212)',
+    darken: 'linear-gradient(#151515, #151515)'
   },
   font: {
     family: 'Inter, sans-serif',

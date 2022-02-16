@@ -38,3 +38,5 @@ export const Wrapper = styled.main`
     }
   `}
 `
+
+export const ButtonsWrapper = styled.div``

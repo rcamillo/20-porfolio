@@ -1,5 +1,12 @@
 import React from 'react'
-import { FaTwitch, FaYoutube, FaInstagram, FaGithub } from 'react-icons/fa'
+import {
+  FaTwitch,
+  FaYoutube,
+  FaInstagram,
+  FaGithub,
+  FaLinkedinIn
+} from 'react-icons/fa'
+import { Button } from '../Button'
 
 import { Picture } from '../Picture'
 
@@ -62,6 +69,15 @@ export const About = () => (
           </a>
         </li>
       </SocialWrapper>
+
+      <Button
+        gradientStyle="purple"
+        backgroundStyle="darken"
+        href="https://www.linkedin.com/in/devlucaslopes/"
+        target="_blank"
+      >
+        <FaLinkedinIn /> LinkedIn
+      </Button>
     </Bio>
   </Wrapper>
 )
