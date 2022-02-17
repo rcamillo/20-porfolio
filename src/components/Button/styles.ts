@@ -23,14 +23,31 @@ export const Link = styled.a<LinkProps>`
     display: block;
     width: 15rem;
     height: 4.5rem;
+    text-transform: capitalize;
 
     display: flex;
     align-items: center;
     justify-content: center;
-
-    ${modifiers[gradientStyle](theme, backgroundStyle)};
+    gap: calc(${theme.spacings.xsmall} / 2);
 
     border-radius: 0.5rem;
     border: 2px solid transparent;
+
+    font-size: ${theme.spacings.xsmall};
+    color: ${theme.colors.light};
+
+    ${modifiers[gradientStyle](theme, backgroundStyle)};
+
+    > svg {
+      width: 1.8rem;
+      height: 1.8rem;
+      color: inherit;
+    }
+
+    transition: filter 100ms ease-in-out;
+
+    &:hover {
+      filter: brightness(0.9);
+    }
   `}
 `
