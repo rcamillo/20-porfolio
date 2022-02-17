@@ -4,7 +4,6 @@ import {
   FiYoutube,
   FiInstagram,
   FiGithub,
-  FiLinkedin,
   FiDownloadCloud,
   FiMail
 } from 'react-icons/fi'
