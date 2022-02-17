@@ -10,6 +10,7 @@ import {
 import { Button } from '../Button'
 
 import { Picture } from '../Picture'
+import { Subtitle } from '../Subtitle'
 
 import { Wrapper, Bio, SocialWrapper, ButtonsWrapper } from './styles'
 
@@ -20,7 +21,7 @@ export const About = () => (
       alternativeText="foto de perfil de um programador"
     />
     <Bio>
-      <h2>sobre mim</h2>
+      <Subtitle>sobre mim</Subtitle>
       <span>Belo Horizonte, Brasil</span>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id

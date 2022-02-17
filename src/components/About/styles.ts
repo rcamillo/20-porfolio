@@ -13,12 +13,6 @@ export const Bio = styled.div`
   ${({ theme }) => css`
     color: ${theme.colors.light};
 
-    h2 {
-      text-transform: uppercase;
-      font-size: ${theme.font.sizes.xlarge};
-      font-weight: 600;
-    }
-
     span {
       font-size: ${theme.font.sizes.large};
       font-weight: 500;
