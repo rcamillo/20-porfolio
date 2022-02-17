@@ -55,3 +55,10 @@ export const SocialWrapper = styled.ul`
     }
   `}
 `
+export const ButtonsWrapper = styled.div`
+  ${({ theme }) => css`
+    margin-top: ${theme.spacings.large};
+    display: flex;
+    gap: ${theme.spacings.small};
+  `}
+`

@@ -1,16 +1,18 @@
 import React from 'react'
 import {
-  FaTwitch,
-  FaYoutube,
-  FaInstagram,
-  FaGithub,
-  FaLinkedinIn
-} from 'react-icons/fa'
+  FiTwitch,
+  FiYoutube,
+  FiInstagram,
+  FiGithub,
+  FiLinkedin,
+  FiDownloadCloud,
+  FiMail
+} from 'react-icons/fi'
 import { Button } from '../Button'
 
 import { Picture } from '../Picture'
 
-import { Wrapper, Bio, SocialWrapper } from './styles'
+import { Wrapper, Bio, SocialWrapper, ButtonsWrapper } from './styles'
 
 export const About = () => (
   <Wrapper>
@@ -35,7 +37,7 @@ export const About = () => (
             target="_blank"
             rel="noreferrer"
           >
-            <FaTwitch size={24} />
+            <FiTwitch size={24} />
           </a>
         </li>
         <li>
@@ -45,7 +47,7 @@ export const About = () => (
             target="_blank"
             rel="noreferrer"
           >
-            <FaYoutube size={24} />
+            <FiYoutube size={24} />
           </a>
         </li>
         <li>
@@ -55,7 +57,7 @@ export const About = () => (
             target="_blank"
             rel="noreferrer"
           >
-            <FaInstagram size={24} />
+            <FiInstagram size={24} />
           </a>
         </li>
         <li>
@@ -65,19 +67,28 @@ export const About = () => (
             target="_blank"
             rel="noreferrer"
           >
-            <FaGithub size={24} />
+            <FiGithub size={24} />
           </a>
         </li>
       </SocialWrapper>
 
-      <Button
-        gradientStyle="purple"
-        backgroundStyle="darken"
-        href="https://www.linkedin.com/in/devlucaslopes/"
-        target="_blank"
-      >
-        <FaLinkedinIn /> LinkedIn
-      </Button>
+      <ButtonsWrapper>
+        <Button
+          gradientStyle="pink"
+          backgroundStyle="darken"
+          href="https://www.linkedin.com/in/devlucaslopes/"
+          target="_blank"
+        >
+          <FiDownloadCloud /> Currículo
+        </Button>
+        <Button
+          gradientStyle="purple"
+          backgroundStyle="darken"
+          href="mailto:dev.thuram@gmail.com"
+        >
+          <FiMail /> E-mail
+        </Button>
+      </ButtonsWrapper>
     </Bio>
   </Wrapper>
 )
