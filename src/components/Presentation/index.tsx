@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaLinkedinIn } from 'react-icons/fa'
+import { FiLinkedin, FiGithub } from 'react-icons/fi'
 
 import { Button } from '../Button'
 import { Looper } from '../Looper'
@@ -18,15 +18,17 @@ export const Presentation = () => (
           gradientStyle="purple"
           href="https://www.linkedin.com/in/devlucaslopes/"
           target="_blank"
+          title="Ver perfil no LinkedIn"
         >
-          <FaLinkedinIn /> LinkedIn
+          <FiLinkedin /> LinkedIn
         </Button>
 
         <Button
-          href="https://www.linkedin.com/in/devlucaslopes/"
+          href="https://github.com/devlucaslopes"
           target="_blank"
+          title="Ver perfil no GitHub"
         >
-          <FaLinkedinIn /> LinkedIn
+          <FiGithub /> GitHub
         </Button>
       </ButtonsWrapper>
     </div>

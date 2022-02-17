@@ -34,13 +34,14 @@ export const Link = styled.a<LinkProps>`
     border: 2px solid transparent;
 
     font-size: ${theme.spacings.xsmall};
+    font-weight: 600;
     color: ${theme.colors.light};
 
     ${modifiers[gradientStyle](theme, backgroundStyle)};
 
     > svg {
-      width: 1.8rem;
-      height: 1.8rem;
+      width: 2.4rem;
+      height: 2.4rem;
       color: inherit;
     }
 
