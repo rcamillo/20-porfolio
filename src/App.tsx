@@ -3,6 +3,7 @@ import React from 'react'
 import { About } from './components/About'
 import { Container } from './components/Container'
 import { Experiences } from './components/Experiences'
+import { Footer } from './components/Footer'
 import { Header } from './components/Header'
 import { Presentation } from './components/Presentation'
 import { Projects } from './components/Projects'
@@ -28,6 +29,10 @@ function App() {
 
       <Container variant="light">
         <Projects />
+      </Container>
+
+      <Container>
+        <Footer />
       </Container>
     </>
   )
