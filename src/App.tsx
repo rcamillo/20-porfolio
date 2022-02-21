@@ -5,6 +5,7 @@ import { Container } from './components/Container'
 import { Experiences } from './components/Experiences'
 import { Header } from './components/Header'
 import { Presentation } from './components/Presentation'
+import { Projects } from './components/Projects'
 
 function App() {
   return (
@@ -25,7 +26,9 @@ function App() {
         <Experiences />
       </Container>
 
-      <Container variant="light">oioioi</Container>
+      <Container variant="light">
+        <Projects />
+      </Container>
     </>
   )
 }

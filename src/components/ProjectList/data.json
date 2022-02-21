@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Ecommerce de jogos",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu purus risus. Ut rutrum sollicitudin purus in accumsan. Proin at mattis metus. Nullam sit amet mauris condimentum, volutpat augue in, mattis urna.",
+    "stack": "ReactJS, Typescript, Styled Components",
+    "link": "https://github.com/devlucaslopes"
+  },
+  {
+    "id": 2,
+    "title": "Plataforma de vídeos",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu purus risus. Ut rutrum sollicitudin purus in accumsan. Proin at mattis metus. Nullam sit amet mauris condimentum, volutpat augue in, mattis urna.",
+    "stack": "ReactJS, Typescript, Styled Components",
+    "link": "https://github.com/devlucaslopes"
+  },
+  {
+    "id": 3,
+    "title": "Clone da Netflix",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu purus risus. Ut rutrum sollicitudin purus in accumsan. Proin at mattis metus. Nullam sit amet mauris condimentum, volutpat augue in, mattis urna.",
+    "stack": "ReactJS, Typescript, Styled Components",
+    "link": "https://github.com/devlucaslopes"
+  }
+]
