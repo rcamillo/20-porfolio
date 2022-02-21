@@ -13,16 +13,16 @@ export const Header = () => (
     <nav>
       <LinkList>
         <li>
-          <a href="#">Home</a>
+          <a href="#home">Home</a>
         </li>
         <li>
-          <a href="#">Sobre mim</a>
+          <a href="#about">Sobre mim</a>
         </li>
         <li>
-          <a href="#">Experiência</a>
+          <a href="#experience">Experiência</a>
         </li>
         <li>
-          <a href="#">Projetos</a>
+          <a href="#projects">Projetos</a>
         </li>
       </LinkList>
     </nav>

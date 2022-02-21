@@ -7,7 +7,7 @@ import { Looper } from '../Looper'
 import { Wrapper, ButtonsWrapper } from './styles'
 
 export const Presentation = () => (
-  <Wrapper>
+  <Wrapper id="home">
     <div>
       <span>Olá, eu sou</span>
       <h1>Lucas Lopes</h1>

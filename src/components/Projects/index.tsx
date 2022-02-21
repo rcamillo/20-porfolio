@@ -6,7 +6,7 @@ import { Subtitle } from '../Subtitle'
 import { ProjectList } from '../ProjectList'
 
 export const Projects = () => (
-  <Wrapper>
+  <Wrapper id="projects">
     <Subtitle>projetos</Subtitle>
 
     <ProjectList />

@@ -15,7 +15,7 @@ import { Subtitle } from '../Subtitle'
 import { Wrapper, Bio, SocialWrapper, ButtonsWrapper } from './styles'
 
 export const About = () => (
-  <Wrapper>
+  <Wrapper id="about">
     <Picture
       url="./imgs/profile.png"
       alternativeText="montagem com o corpo do Neymar (jogador de futebol) com o rosto do Lucas"
