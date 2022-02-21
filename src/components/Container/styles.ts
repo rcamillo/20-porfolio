@@ -1,4 +1,5 @@
 import styled, { css } from 'styled-components'
+import media from 'styled-media-query'
 
 import { ContainerVariant } from '.'
 
@@ -9,9 +10,14 @@ type WrapperProps = {
 export const Wrapper = styled.div<WrapperProps>`
   ${({ theme, variant }) => css`
     width: 100%;
+    padding: ${theme.spacings.small};
     background-color: ${variant === 'default'
       ? theme.colors.dark
       : theme.colors.darken};
+
+    ${media.greaterThan('large')`
+      padding: 0;
+    `}
   `}
 `
 
