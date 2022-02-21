@@ -1,4 +1,30 @@
-export default {
+export const setupTheme = (isDark: boolean) => {
+  if (isDark) {
+    return {
+      ...theme,
+      colors: {
+        primary: '#00D2DF',
+        light: '#fff',
+        grayLight: '#C4C4C4',
+        dark: '#121212',
+        darken: '#151515'
+      }
+    }
+  }
+
+  return {
+    ...theme,
+    colors: {
+      primary: '#00D2DF',
+      light: '#eee',
+      grayLight: '#151515',
+      dark: '#fff',
+      darken: '#C4C4C4'
+    }
+  }
+}
+
+export const theme = {
   grid: {
     container: '108rem'
   },
@@ -33,4 +59,4 @@ export default {
     large: '4.0rem',
     xlarge: '4.8rem'
   }
-} as const
+}

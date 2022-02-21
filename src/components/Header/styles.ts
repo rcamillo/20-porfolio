@@ -89,3 +89,10 @@ export const LinkList = styled.ul`
     `}
   `}
 `
+
+export const ToggleButton = styled.button`
+  ${({ theme }) => css`
+    svg {
+      color: ${theme.colors.light}
+  `}
+`
