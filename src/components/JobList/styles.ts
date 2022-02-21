@@ -1,11 +1,16 @@
 import styled, { css } from 'styled-components'
+import media from 'styled-media-query'
 
 export const Wrapper = styled.div`
   ${({ theme }) => css`
     margin-top: ${theme.spacings.small};
     display: grid;
-    grid-template-columns: auto 1fr;
-    gap: calc(${theme.spacings.large} * 2);
+    gap: ${theme.spacings.large};
+
+    ${media.greaterThan('medium')`
+      grid-template-columns: auto 1fr;
+      gap: calc(${theme.spacings.large} * 2);
+    `}
   `}
 `
 

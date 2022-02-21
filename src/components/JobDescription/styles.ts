@@ -1,4 +1,5 @@
 import styled, { css, keyframes } from 'styled-components'
+import media from 'styled-media-query'
 
 const slideIn = keyframes`
   from {
@@ -39,12 +40,22 @@ export const Heading = styled.div`
     }
 
     h2 {
-      font-size: ${theme.font.sizes.xlarge};
+      font-size: ${theme.font.sizes.large};
     }
 
     span {
-      font-size: ${theme.font.sizes.medium};
+      font-size: ${theme.font.sizes.small};
     }
+
+    ${media.greaterThan('medium')`
+      h2 {
+        font-size: ${theme.font.sizes.xlarge};
+      }
+
+      span {
+        font-size: ${theme.font.sizes.medium};
+      }
+    `}
   `}
 `
 
@@ -59,8 +70,12 @@ export const Company = styled.p`
 
 export const Description = styled.p`
   ${({ theme }) => css`
-    font-size: ${theme.font.sizes.large};
+    font-size: ${theme.font.sizes.medium};
     color: ${theme.colors.grayLight};
     font-weight: 300;
+
+    ${media.greaterThan('medium')`
+      font-size: ${theme.font.sizes.large};
+    `}
   `}
 `
