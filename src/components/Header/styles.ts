@@ -1,4 +1,5 @@
 import styled, { css, keyframes } from 'styled-components'
+import media from 'styled-media-query'
 
 const appear = keyframes`
   from {
@@ -27,8 +28,9 @@ export const Wrapper = styled.header`
   ${({ theme }) => css`
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: ${theme.spacings.large} 0;
+    flex-direction: column;
+    gap: ${theme.spacings.xsmall};
+    padding: ${theme.spacings.small} 0;
     position: relative;
 
     &::after {
@@ -41,6 +43,12 @@ export const Wrapper = styled.header`
 
       animation: ${appear} 1s linear forwards;
     }
+
+    ${media.greaterThan('medium')`
+      padding: ${theme.spacings.large} 0;
+      justify-content: space-between;
+      flex-direction: row;
+    `}
   `}
 `
 
@@ -55,7 +63,7 @@ export const LogoLink = styled.a`
 export const LinkList = styled.ul`
   ${({ theme }) => css`
     display: flex;
-    gap: calc(${theme.spacings.medium} * 2);
+    gap: ${theme.spacings.small};
 
     a {
       position: relative;
@@ -75,5 +83,9 @@ export const LinkList = styled.ul`
         }
       }
     }
+
+    ${media.greaterThan('medium')`
+    gap: calc(${theme.spacings.medium} * 2);
+    `}
   `}
 `
