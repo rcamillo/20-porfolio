@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { DefaultTheme, ThemeProvider } from 'styled-components'
+import { ThemeProvider } from 'styled-components'
 
 import { About } from './components/About'
 import { Contact } from './components/Contact'
