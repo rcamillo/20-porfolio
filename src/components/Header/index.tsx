@@ -5,7 +5,9 @@ import { Wrapper, LogoLink, LinkList } from './styles'
 export const Header = () => (
   <Wrapper>
     <div>
-      <LogoLink href="#">Portfólio</LogoLink>
+      <LogoLink href="#">
+        <img src="./imgs/logo.svg" alt="" />
+      </LogoLink>
     </div>
 
     <nav>
