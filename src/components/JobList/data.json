@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "role": "Professor conteudista em Frontend",
+    "role": "Software Developer",
     "dateFrom": "Nov 2021",
     "isCurrent": true,
     "company": "ThoughtWorks",
@@ -9,18 +9,18 @@
   },
   {
     "id": 2,
-    "role": "Professor conteudista em Frontend",
-    "dateFrom": "Nov 2021",
-    "dateTo": "Nov 2022",
-    "company": "Digital House",
+    "role": "Fullstack Developer",
+    "dateFrom": "Set 2019",
+    "dateTo": "Mar 2021",
+    "company": "BeautyClass",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu purus risus. Ut rutrum sollicitudin purus in accumsan. Proin at mattis metus. Nullam sit amet mauris condimentum, volutpat augue in, mattis urna."
   },
   {
     "id": 3,
-    "role": "Programador",
-    "dateFrom": "Nov 2021",
-    "dateTo": "Nov 2022",
-    "company": "XP",
+    "role": "Backend Developer",
+    "dateFrom": "Abr 2019",
+    "dateTo": "Ago 2019",
+    "company": "CM Tecnologia",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu purus risus. Ut rutrum sollicitudin purus in accumsan. Proin at mattis metus. Nullam sit amet mauris condimentum, volutpat augue in, mattis urna."
   }
 ]
