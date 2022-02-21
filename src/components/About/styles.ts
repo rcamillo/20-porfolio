@@ -1,11 +1,16 @@
 import styled, { css } from 'styled-components'
+import media from 'styled-media-query'
 
 export const Wrapper = styled.section`
   ${({ theme }) => css`
     padding: calc(${theme.spacings.large} * 2) 0;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
     gap: ${theme.spacings.large};
+
+    ${media.greaterThan('medium')`
+      grid-template-columns: repeat(2, 1fr);
+    `}
   `}
 `
 
