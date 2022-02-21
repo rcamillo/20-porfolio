@@ -17,16 +17,17 @@ import { Wrapper, Bio, SocialWrapper, ButtonsWrapper } from './styles'
 export const About = () => (
   <Wrapper>
     <Picture
-      url="https://images.unsplash.com/photo-1624377632657-3902bfd35958?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1600&q=100"
-      alternativeText="foto de perfil de um programador"
+      url="./imgs/profile.png"
+      alternativeText="montagem com o corpo do Neymar (jogador de futebol) com o rosto do Lucas"
     />
     <Bio>
       <Subtitle>sobre mim</Subtitle>
       <span>Belo Horizonte, Brasil</span>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id
-        egestas dui. Nullam finibus aliquam enim quis faucibus. Aenean ac
-        commodo dolor, nec bibendum velit.
+        Há mais de 5 anos criando e resolvendo bugs! Atualmente trabalho como
+        desenvolvedor de software e no meu tempo livre falo sobre programação e
+        carreira para ajudar outras pessoas que gostariam de aprender sobre o
+        mundo da tecnologia.
       </p>
 
       <SocialWrapper>

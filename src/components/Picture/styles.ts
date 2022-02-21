@@ -45,6 +45,12 @@ export const Wrapper = styled.div`
       height: 100%;
       border-radius: 0.5rem;
       object-fit: cover;
+
+      transition: transform 200ms ease-in-out;
+
+      &:hover {
+        transform: scale(1.3);
+      }
     }
   `}
 `
