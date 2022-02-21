@@ -1,6 +1,7 @@
 import React from 'react'
 
 import { About } from './components/About'
+import { Contact } from './components/Contact'
 import { Container } from './components/Container'
 import { Experiences } from './components/Experiences'
 import { Footer } from './components/Footer'
@@ -32,6 +33,10 @@ function App() {
       </Container>
 
       <Container>
+        <Contact />
+      </Container>
+
+      <Container variant="light">
         <Footer />
       </Container>
     </>
