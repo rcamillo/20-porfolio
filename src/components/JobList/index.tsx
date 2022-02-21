@@ -1,40 +1,47 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
-import { Wrapper, Navigation, NavigationItem } from './styles'
+import { JobDescription } from '../JobDescription'
+import data from './data.json'
+
+import { Wrapper, Navigation, NavigationItem, Jobs } from './styles'
+
+export type JobData = {
+  id: number
+  role: string
+  dateFrom: string
+  dateTo?: string
+  company: string
+  description: string
+  isCurrent?: boolean
+}
 
 export const JobList = () => {
-  const [active, setActive] = useState('tw')
+  const [active, setActive] = useState(1)
 
   return (
     <Wrapper>
       <Navigation>
-        <li>
-          <NavigationItem
-            isActive={active === 'tw'}
-            onClick={() => setActive('tw')}
-          >
-            ThoughtWorks
-          </NavigationItem>
-        </li>
-        <li>
-          <NavigationItem
-            isActive={active === 'empresa2'}
-            onClick={() => setActive('empresa2')}
-          >
-            Empresa 2
-          </NavigationItem>
-        </li>
-        <li>
-          <NavigationItem
-            isActive={active === 'empresa3'}
-            onClick={() => setActive('empresa3')}
-          >
-            Empresa 3
-          </NavigationItem>
-        </li>
+        {data.map((job) => (
+          <li key={`job-list-${job.id}`}>
+            <NavigationItem
+              isActive={active === job.id}
+              onClick={() => setActive(job.id)}
+            >
+              {job.company}
+            </NavigationItem>
+          </li>
+        ))}
       </Navigation>
 
-      <div style={{ background: '#ccc' }}>{active}</div>
+      <Jobs>
+        {data.map((job) => (
+          <JobDescription
+            key={`job-description-${job.id}`}
+            isActive={job.id === active}
+            {...job}
+          />
+        ))}
+      </Jobs>
     </Wrapper>
   )
 }

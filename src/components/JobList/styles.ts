@@ -53,3 +53,7 @@ export const NavigationItem = styled.button<NavigationItemProps>`
     `}
   `}
 `
+
+export const Jobs = styled.div`
+  overflow: hidden;
+`
