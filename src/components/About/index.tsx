@@ -76,7 +76,7 @@ export const About = () => (
       <ButtonsWrapper>
         <Button
           gradientStyle="pink"
-          backgroundStyle="darken"
+          backgroundStyle="background-2"
           href="https://www.linkedin.com/in/devlucaslopes/"
           target="_blank"
         >
@@ -84,7 +84,7 @@ export const About = () => (
         </Button>
         <Button
           gradientStyle="purple"
-          backgroundStyle="darken"
+          backgroundStyle="background-2"
           href="mailto:dev.thuram@gmail.com"
         >
           <FiMail /> E-mail

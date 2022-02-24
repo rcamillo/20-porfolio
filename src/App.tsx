@@ -1,15 +1,15 @@
 import React, { useEffect, useState } from 'react'
 import { ThemeProvider } from 'styled-components'
 
-// import { About } from './components/About'
-// import { Contact } from './components/Contact'
+import { About } from './components/About'
+import { Contact } from './components/Contact'
 import { Container } from './components/Container'
-// import { Experiences } from './components/Experiences'
-// import { Footer } from './components/Footer'
-// import { GoToTop } from './components/GoToTop'
+import { Experiences } from './components/Experiences'
+import { Footer } from './components/Footer'
+import { GoToTop } from './components/GoToTop'
 import { Header } from './components/Header'
 import { Presentation } from './components/Presentation'
-// import { Projects } from './components/Projects'
+import { Projects } from './components/Projects'
 
 import GlobalStyles from './styles/global'
 import { setupTheme, theme as defaultTheme } from './styles/theme'
@@ -44,29 +44,35 @@ function App() {
     <ThemeProvider theme={theme}>
       <GlobalStyles />
       <>
+        {showGoToTop && <GoToTop />}
+
         <Container>
           <Header themeIsDark={isDark} toggleTheme={() => setIsDark(!isDark)} />
         </Container>
+
         <Container>
           <Presentation />
         </Container>
-        {/*
-        {showGoToTop && <GoToTop />}
+
         <Container variant="light">
           <About />
         </Container>
+
         <Container>
           <Experiences />
         </Container>
+
         <Container variant="light">
           <Projects />
         </Container>
+
         <Container>
           <Contact />
         </Container>
+
         <Container variant="light">
           <Footer />
-        </Container> */}
+        </Container>
       </>
     </ThemeProvider>
   )

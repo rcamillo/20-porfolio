@@ -35,7 +35,7 @@ export const ProjectDescription = ({
       href={link}
       target="_blank"
       gradientStyle="purple"
-      backgroundStyle="darken"
+      backgroundStyle="background-2"
     >
       <FiLink /> Visualizar
     </Button>
