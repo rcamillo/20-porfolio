@@ -5,7 +5,7 @@ import * as PictureStyles from '../Picture/styles'
 export const Wrapper = styled.div`
   ${PictureStyles.Wrapper} {
     width: 100%;
-    height: 20rem;
+    height: 19rem;
   }
 `
 
