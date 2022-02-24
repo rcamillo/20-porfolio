@@ -12,8 +12,6 @@ const shimmer = keyframes`
 
 export const Wrapper = styled.div`
   ${({ theme }) => css`
-    width: 36rem;
-    height: 36rem;
     border-radius: 0.5rem;
     display: inline-block;
     position: relative;
