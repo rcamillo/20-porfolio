@@ -16,7 +16,7 @@ export const Wrapper = styled.section`
 
 export const Bio = styled.div`
   ${({ theme }) => css`
-    color: ${theme.colors.light};
+    color: ${theme.colors.text};
 
     span {
       font-size: ${theme.font.sizes.large};
@@ -49,7 +49,7 @@ export const SocialWrapper = styled.ul`
 
     a:hover {
       svg {
-        color: ${theme.colors.light};
+        color: ${theme.colors.text};
       }
     }
   `}

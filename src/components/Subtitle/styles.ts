@@ -5,6 +5,6 @@ export const Text = styled.h2`
     text-transform: uppercase;
     font-size: ${theme.font.sizes.xlarge};
     font-weight: 600;
-    color: ${theme.colors.light};
+    color: ${theme.colors.text};
   `}
 `

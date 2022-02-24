@@ -35,7 +35,7 @@ export const Link = styled.a<LinkProps>`
 
     font-size: ${theme.spacings.xsmall};
     font-weight: 600;
-    color: ${theme.colors.light};
+    color: ${theme.colors.text};
 
     ${modifiers[gradientStyle](theme, backgroundStyle)};
 

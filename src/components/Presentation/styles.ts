@@ -21,7 +21,7 @@ export const Wrapper = styled.main`
       span,
       h2 {
         font-size: ${theme.font.sizes.xlarge};
-        color: ${theme.colors.light};
+        color: ${theme.colors.text};
       }
     }
 

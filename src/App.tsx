@@ -1,15 +1,15 @@
 import React, { useEffect, useState } from 'react'
 import { ThemeProvider } from 'styled-components'
 
-import { About } from './components/About'
-import { Contact } from './components/Contact'
+// import { About } from './components/About'
+// import { Contact } from './components/Contact'
 import { Container } from './components/Container'
-import { Experiences } from './components/Experiences'
-import { Footer } from './components/Footer'
-import { GoToTop } from './components/GoToTop'
+// import { Experiences } from './components/Experiences'
+// import { Footer } from './components/Footer'
+// import { GoToTop } from './components/GoToTop'
 import { Header } from './components/Header'
 import { Presentation } from './components/Presentation'
-import { Projects } from './components/Projects'
+// import { Projects } from './components/Projects'
 
 import GlobalStyles from './styles/global'
 import { setupTheme, theme as defaultTheme } from './styles/theme'
@@ -50,6 +50,7 @@ function App() {
         <Container>
           <Presentation />
         </Container>
+        {/*
         {showGoToTop && <GoToTop />}
         <Container variant="light">
           <About />
@@ -65,7 +66,7 @@ function App() {
         </Container>
         <Container variant="light">
           <Footer />
-        </Container>
+        </Container> */}
       </>
     </ThemeProvider>
   )

@@ -19,7 +19,7 @@ export const Wrapper = styled.div`
     position: relative;
     overflow: hidden;
 
-    background-color: ${theme.colors.dark};
+    background-color: ${theme.colors['background-1']};
     background-image: linear-gradient(
       to right,
       #121212 0%,

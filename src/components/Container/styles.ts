@@ -12,8 +12,8 @@ export const Wrapper = styled.div<WrapperProps>`
     width: 100%;
     padding: ${theme.spacings.small};
     background-color: ${variant === 'default'
-      ? theme.colors.dark
-      : theme.colors.darken};
+      ? theme.colors['background-1']
+      : theme.colors['background-2']};
 
     ${media.greaterThan('large')`
       padding: 0;

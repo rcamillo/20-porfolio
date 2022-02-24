@@ -4,10 +4,10 @@ export const setupTheme = (isDark: boolean) => {
       ...theme,
       colors: {
         primary: '#00D2DF',
-        light: '#fff',
+        text: '#fff',
         grayLight: '#C4C4C4',
-        dark: '#121212',
-        darken: '#151515'
+        'background-1': '#121212',
+        'background-2': '#151515'
       }
     }
   }
@@ -16,10 +16,10 @@ export const setupTheme = (isDark: boolean) => {
     ...theme,
     colors: {
       primary: '#00D2DF',
-      light: '#eee',
+      text: '#151515',
       grayLight: '#151515',
-      dark: '#fff',
-      darken: '#C4C4C4'
+      'background-1': '#fff',
+      'background-2': '#c4c4c4'
     }
   }
 }
@@ -30,10 +30,10 @@ export const theme = {
   },
   colors: {
     primary: '#00D2DF',
-    light: '#fff',
+    text: '#fff',
     grayLight: '#C4C4C4',
-    dark: '#121212',
-    darken: '#151515'
+    'background-1': '#121212',
+    'background-2': '#151515'
   },
   gradients: {
     pink: 'linear-gradient(270.06deg, #6518B4 0%, #D24074 101.62%)',

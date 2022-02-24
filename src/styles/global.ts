@@ -16,7 +16,7 @@ const GlobalStyles = createGlobalStyle`
     body {
       font-family: ${theme.font.family};
       font-size: ${theme.font.sizes.large};
-      background-color: ${theme.colors.dark};
+      background-color: ${theme.colors['background-1']};
     }
 
     button {

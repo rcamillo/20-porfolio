@@ -37,7 +37,7 @@ export const Heading = styled.div`
     h2,
     span {
       font-weight: 500;
-      color: ${theme.colors.light};
+      color: ${theme.colors.text};
     }
 
     h2 {

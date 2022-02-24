@@ -14,7 +14,7 @@ export const Title = styled.h2`
     margin: ${theme.spacings.large} 0 ${theme.spacings.small} 0;
     font-size: ${theme.font.sizes.xlarge};
     text-transform: initial;
-    color: ${theme.colors.light};
+    color: ${theme.colors.text};
   `}
 `
 
