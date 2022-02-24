@@ -15,11 +15,16 @@ export const Wrapper = styled.div`
         padding: ${theme.spacings.xsmall};
         font-size: ${theme.font.sizes.large};
         border-radius: 0.4rem;
-        border: none;
+      }
+
+      input,
+      textarea {
+        border: 2px solid ${theme.colors['background-2']};
       }
 
       button {
         background: ${theme.gradients.purple};
+        color: ${theme.colors.text};
       }
     }
   `}
