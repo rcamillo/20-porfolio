@@ -30,13 +30,12 @@ export const Wrapper = styled.header`
     align-items: center;
     flex-direction: column;
     gap: ${theme.spacings.xsmall};
-    padding: ${theme.spacings.small} 0;
     position: relative;
 
     &::after {
       content: '';
       position: absolute;
-      bottom: 0;
+      bottom: -1.6rem;
       left: 0;
       width: 100%;
       height: 2px;
@@ -48,6 +47,10 @@ export const Wrapper = styled.header`
       padding: ${theme.spacings.large} 0;
       justify-content: space-between;
       flex-direction: row;
+
+      &::after {
+        bottom: 0;
+      }
     `}
   `}
 `
@@ -63,7 +66,10 @@ export const LogoLink = styled.a`
 export const LinkList = styled.ul`
   ${({ theme }) => css`
     display: flex;
+    flex-wrap: wrap;
     gap: ${theme.spacings.small};
+    align-items: center;
+    justify-content: center;
 
     a {
       position: relative;
@@ -85,7 +91,7 @@ export const LinkList = styled.ul`
     }
 
     ${media.greaterThan('medium')`
-    gap: calc(${theme.spacings.medium} * 2);
+      gap: calc(${theme.spacings.medium} * 2);
     `}
   `}
 `
