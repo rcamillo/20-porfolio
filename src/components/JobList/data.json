@@ -1,26 +1,26 @@
 [
   {
     "id": 1,
-    "role": "Software Developer",
-    "dateFrom": "Nov 2021",
+    "role": "Front-End React Develop",
+    "dateFrom": "Mar 2021",
     "isCurrent": true,
-    "company": "ThoughtWorks",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu purus risus. Ut rutrum sollicitudin purus in accumsan. Proin at mattis metus. Nullam sit amet mauris condimentum, volutpat augue in, mattis urna."
+    "company": "Ciatécnica",
+    "description": ""
   },
   {
     "id": 2,
     "role": "Fullstack Developer",
-    "dateFrom": "Set 2019",
+    "dateFrom": "Ago 2019",
     "dateTo": "Mar 2021",
-    "company": "BeautyClass",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu purus risus. Ut rutrum sollicitudin purus in accumsan. Proin at mattis metus. Nullam sit amet mauris condimentum, volutpat augue in, mattis urna."
+    "company": "P9 Digital",
+    "description": "Desenvolvimento e planejamento de sites, apps para a web, apps híbridos, APIs, integrações e soluções."
   },
   {
     "id": 3,
-    "role": "Backend Developer",
-    "dateFrom": "Abr 2019",
-    "dateTo": "Ago 2019",
-    "company": "CM Tecnologia",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu purus risus. Ut rutrum sollicitudin purus in accumsan. Proin at mattis metus. Nullam sit amet mauris condimentum, volutpat augue in, mattis urna."
+    "role": "IT Analyst",
+    "dateFrom": "Ago 2019",
+    "dateTo": "Mar 2017",
+    "company": "Rio Tech",
+    "description": ""
   }
 ]

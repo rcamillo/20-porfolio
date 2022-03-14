@@ -1,11 +1,10 @@
 import React from 'react'
 import {
-  FiTwitch,
-  FiYoutube,
   FiInstagram,
   FiGithub,
   FiDownloadCloud,
-  FiMail
+  FiMail,
+  FiLinkedin
 } from 'react-icons/fi'
 import { Button } from '../Button'
 
@@ -22,53 +21,41 @@ export const About = () => (
     />
     <Bio>
       <Subtitle>sobre mim</Subtitle>
-      <span>Belo Horizonte, Brasil</span>
+      <span>Assis, Brasil</span>
       <p>
-        Há mais de 5 anos criando e resolvendo bugs! Atualmente trabalho como
-        desenvolvedor de software e no meu tempo livre falo sobre programação e
-        carreira para ajudar outras pessoas que gostariam de aprender sobre o
-        mundo da tecnologia.
+        Há mais de 3 anos criando e resolvendo bugs! Atualmente trabalho como
+        desenvolvedor de software voltado para Front-end.
       </p>
 
       <SocialWrapper>
         <li>
           <a
-            href="https://twitch.tv/devlucaslopes"
-            title="Canal na Twitch"
+            href="https://www.linkedin.com/in/renan-camillo/"
+            title="Linkedin"
             target="_blank"
             rel="noreferrer"
           >
-            <FiTwitch size={24} />
+            <FiLinkedin size={24} />
           </a>
         </li>
         <li>
           <a
-            href="https://www.youtube.com/c/devlucaslopes"
-            title="Canal no Youtube"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FiYoutube size={24} />
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://www.instagram.com/devlucaslopes/"
-            title="Perfil no Instagram"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FiInstagram size={24} />
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://github.com/devlucaslopes"
+            href="https://github.com/rcamillo"
             title="Perfil no GitHub"
             target="_blank"
             rel="noreferrer"
           >
             <FiGithub size={24} />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.instagram.com/renan.ca/"
+            title="Perfil no Instagram"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FiInstagram size={24} />
           </a>
         </li>
       </SocialWrapper>
@@ -77,7 +64,7 @@ export const About = () => (
         <Button
           gradientStyle="pink"
           backgroundStyle="darken"
-          href="https://www.linkedin.com/in/devlucaslopes/"
+          href="https://drive.google.com/file/d/113qjmZGcDiFKMAjzG48hL7R57tBzeAaY/view?usp=sharing"
           target="_blank"
         >
           <FiDownloadCloud /> Currículo
@@ -85,7 +72,7 @@ export const About = () => (
         <Button
           gradientStyle="purple"
           backgroundStyle="darken"
-          href="mailto:dev.thuram@gmail.com"
+          href="mailto:rcamillo12@gmail.com"
         >
           <FiMail /> E-mail
         </Button>

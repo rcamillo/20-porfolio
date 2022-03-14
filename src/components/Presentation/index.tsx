@@ -10,13 +10,13 @@ export const Presentation = () => (
   <Wrapper id="home">
     <div>
       <span>Olá, eu sou</span>
-      <h1>Lucas Lopes</h1>
+      <h1>Renan Camillo</h1>
       <h2>Desenvolvedor Front-End.</h2>
 
       <ButtonsWrapper>
         <Button
           gradientStyle="purple"
-          href="https://www.linkedin.com/in/devlucaslopes/"
+          href="https://www.linkedin.com/in/renan-camillo/"
           target="_blank"
           title="Ver perfil no LinkedIn"
         >
@@ -24,7 +24,7 @@ export const Presentation = () => (
         </Button>
 
         <Button
-          href="https://github.com/devlucaslopes"
+          href="https://github.com/rcamillo"
           target="_blank"
           title="Ver perfil no GitHub"
         >
