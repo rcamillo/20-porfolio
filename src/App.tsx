@@ -44,25 +44,32 @@ function App() {
     <ThemeProvider theme={theme}>
       <GlobalStyles />
       <>
+        {showGoToTop && <GoToTop />}
+
         <Container>
           <Header themeIsDark={isDark} toggleTheme={() => setIsDark(!isDark)} />
         </Container>
+
         <Container>
           <Presentation />
         </Container>
-        {showGoToTop && <GoToTop />}
+
         <Container variant="light">
           <About />
         </Container>
+
         <Container>
           <Experiences />
         </Container>
+
         <Container variant="light">
           <Projects />
         </Container>
+
         <Container>
           <Contact />
         </Container>
+
         <Container variant="light">
           <Footer />
         </Container>

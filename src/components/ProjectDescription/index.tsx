@@ -20,10 +20,12 @@ export const ProjectDescription = ({
   link
 }: ProjectDescriptionProps) => (
   <Wrapper>
-    <Picture
-      url="https://images.unsplash.com/photo-1599658880436-c61792e70672?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-      alternativeText={title}
-    />
+    <a href="#">
+      <Picture
+        url="https://images.unsplash.com/photo-1599658880436-c61792e70672?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        alternativeText={title}
+      />
+    </a>
 
     <Title>{title}</Title>
 
@@ -35,7 +37,7 @@ export const ProjectDescription = ({
       href={link}
       target="_blank"
       gradientStyle="purple"
-      backgroundStyle="darken"
+      backgroundStyle="background-2"
     >
       <FiLink /> Visualizar
     </Button>

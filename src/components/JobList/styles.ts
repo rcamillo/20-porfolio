@@ -37,11 +37,11 @@ export const NavigationItem = styled.button<NavigationItemProps>`
       width: 2px;
       top: 0;
       left: 0;
-      background-color: ${theme.colors.darken};
+      background-color: ${theme.colors['background-2']};
     }
 
     &:hover {
-      background-color: ${theme.colors.darken};
+      background-color: ${theme.colors['background-2']};
 
       &::before {
         background-color: ${theme.colors.primary};
@@ -50,7 +50,7 @@ export const NavigationItem = styled.button<NavigationItemProps>`
 
     ${isActive &&
     css`
-      background-color: ${theme.colors.darken};
+      background-color: ${theme.colors['background-2']};
 
       &::before {
         background-color: ${theme.colors.primary};

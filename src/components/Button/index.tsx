@@ -4,7 +4,7 @@ import { Link } from './styles'
 
 export type ButtonGradientStyle = 'pink' | 'purple'
 
-export type ButtonBackgroundStyle = 'dark' | 'darken'
+export type ButtonBackgroundStyle = 'background-1' | 'background-2'
 
 type ButtonProps = {
   children: React.ReactNode
@@ -15,7 +15,7 @@ type ButtonProps = {
 export const Button = ({
   children,
   gradientStyle = 'pink',
-  backgroundStyle = 'dark',
+  backgroundStyle = 'background-1',
   ...props
 }: ButtonProps) => (
   <Link

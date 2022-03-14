@@ -63,7 +63,7 @@ export const About = () => (
       <ButtonsWrapper>
         <Button
           gradientStyle="pink"
-          backgroundStyle="darken"
+          backgroundStyle="background-2"
           href="https://drive.google.com/file/d/113qjmZGcDiFKMAjzG48hL7R57tBzeAaY/view?usp=sharing"
           target="_blank"
         >
@@ -71,7 +71,7 @@ export const About = () => (
         </Button>
         <Button
           gradientStyle="purple"
-          backgroundStyle="darken"
+          backgroundStyle="background-2"
           href="mailto:rcamillo12@gmail.com"
         >
           <FiMail /> E-mail

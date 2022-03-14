@@ -12,14 +12,12 @@ const shimmer = keyframes`
 
 export const Wrapper = styled.div`
   ${({ theme }) => css`
-    width: 36rem;
-    height: 36rem;
     border-radius: 0.5rem;
     display: inline-block;
     position: relative;
     overflow: hidden;
 
-    background-color: ${theme.colors.dark};
+    background-color: ${theme.colors['background-1']};
     background-image: linear-gradient(
       to right,
       #121212 0%,

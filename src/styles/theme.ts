@@ -4,10 +4,15 @@ export const setupTheme = (isDark: boolean) => {
       ...theme,
       colors: {
         primary: '#00D2DF',
-        light: '#fff',
+        text: '#fff',
         grayLight: '#C4C4C4',
-        dark: '#121212',
-        darken: '#151515'
+        'background-1': '#121212',
+        'background-2': '#151515'
+      },
+      gradients: {
+        ...theme.gradients,
+        'background-1': 'linear-gradient(#121212, #121212)',
+        'background-2': 'linear-gradient(#151515, #151515)'
       }
     }
   }
@@ -15,11 +20,16 @@ export const setupTheme = (isDark: boolean) => {
   return {
     ...theme,
     colors: {
-      primary: '#00D2DF',
-      light: '#eee',
+      primary: '#6518B4',
+      text: '#151515',
       grayLight: '#151515',
-      dark: '#fff',
-      darken: '#C4C4C4'
+      'background-1': '#fff',
+      'background-2': '#c4c4c4'
+    },
+    gradients: {
+      ...theme.gradients,
+      'background-1': 'linear-gradient(#fff, #fff)',
+      'background-2': 'linear-gradient(#c4c4c4, #c4c4c4)'
     }
   }
 }
@@ -30,16 +40,16 @@ export const theme = {
   },
   colors: {
     primary: '#00D2DF',
-    light: '#fff',
+    text: '#fff',
     grayLight: '#C4C4C4',
-    dark: '#121212',
-    darken: '#151515'
+    'background-1': '#121212',
+    'background-2': '#151515'
   },
   gradients: {
     pink: 'linear-gradient(270.06deg, #6518B4 0%, #D24074 101.62%)',
     purple: 'linear-gradient(269.96deg, #10D7E2 0%, #9358F7 100%)',
-    dark: 'linear-gradient(#121212, #121212)',
-    darken: 'linear-gradient(#151515, #151515)'
+    'background-1': 'linear-gradient(#121212, #121212)',
+    'background-2': 'linear-gradient(#151515, #151515)'
   },
   font: {
     family: 'Inter, sans-serif',
